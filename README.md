@@ -20,10 +20,15 @@ node -v
 npm -v
 python --version
 git --version
+
+
 2. Open Project in VS Code
 cd BragBoard
 code .
-3. Setup Backend (FastAPI)
+
+
+
+4. Setup Backend (FastAPI)
 Step 1: Create virtual environment (venv)
 python -m venv venv
 Step 2: Activate venv
@@ -78,6 +83,8 @@ Create database:
 CREATE DATABASE bragboard;
 Connect in FastAPI using:
 DATABASE_URL = "postgresql://user:password@localhost/bragboard"
+
+
 7. Run Full Project
 
 Open 2 terminals in VS Code:
@@ -89,6 +96,8 @@ uvicorn main:app --reload
 Terminal 2 (Frontend)
 cd frontend
 npm start
+
+
 8. Folder Structure (Recommended)
 BragBoard/
  ├── backend/
